@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <nav>
@@ -15,23 +15,22 @@
         <a href="../cv/index.html">CV</a>
     </nav>
     <h1>Contact Me</h1>
-    <form action="mailto:rchand@ucsd.edu" method="POST" enctype="text/plain">
-        <label>
-            Email:
-            <input name="email" type="email">
-        </label>
-        <br><br>
-        <label>
-            Subject:
-            <input name="subject">
-        </label>
-        <br><br>
-        <label>
-            Body:
-            <textarea name="body"></textarea>
-        </label>
-        <br><br>
-        <button>Submit</button>
-    </form>
+    <div class="contact">
+        <form action="mailto:rchand@ucsd.edu" method="POST" enctype="text/plain">
+            <label for="email">
+                Email:
+                <input name="email" id="email" type="email">
+            </label>
+            <label for="subject">
+                Subject:
+                <input name="subject" id="subject">
+            </label>
+            <label for="body">
+                Body:
+                <textarea name="body" id="body"></textarea>
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
