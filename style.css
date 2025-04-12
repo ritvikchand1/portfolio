@@ -4,9 +4,6 @@ html {
 }
 
 body {
-    /* Set line height to 1.5 times the font size
-         and use the OS’s UI font as the website font
-       */
     font: 100%/1.5 system-ui;
     max-width: 100ch;
     margin-inline: auto;
@@ -94,11 +91,11 @@ h1 {
   color: var(--text-color);
   font-family: "Inter", system-ui, sans-serif;
   padding: 2rem;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .cv a:hover {
-  border-bottom-width: 0.4em;
+  border-bottom-width: 0.5em;
   border-bottom-style: solid;
   padding-bottom: 0.1em;
   border-bottom-color: var(--color-accent);
@@ -113,6 +110,18 @@ h1 {
   border-bottom: 2px solid oklch(60% 0.01 270);
 }
 
+.cv article {
+  background: oklch(98% 0.005 270);
+  padding: 1em;
+  border-radius: 0.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.cv time {
+  font-size: 0.9em;
+  color: gray;
+}
 
 .cv .section-title {
   font-size: 1.5rem;
@@ -128,16 +137,5 @@ h1 {
   transform: translateX(4px);
 }
 
-.cv article {
-  background: oklch(98% 0.005 270);
-  padding: 1em;
-  border-radius: 0.5em;
-  margin-bottom: 1.5em;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-}
 
-.cv time {
-  font-size: 0.9em;
-  color: gray;
-}
 
