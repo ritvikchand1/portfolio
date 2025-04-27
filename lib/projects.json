@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Microbiome RAG-Chatbot",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Built a RAG-based chatbot using ChromaDB, LlamaIndex, and LangChain, enabling natural language queries of large-scale microbiome datasets for scientific research"
+    },
+    {
+        "title": "Trip Itinerary Optimizer",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Developed a full-stack travel itinerary application using Next.js, TypeScript, and Firebase, incorporating interactive maps with Mapbox API, real-time weather data via OpenWeatherMap, and OpenAI API for finding optimal routes and summarization"
+    },
+    {
+        "title": "Predictive Modeling of Cooking Times",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Conducted extensive data analysis on 83,000+ recipes using Python to investigate correlations between nutritional factors and cooking duration, employing feature engineering (polynomial features, quantile transformation) and ML techniques (KNN Regression, Random Forest, Gradient Boosting) to develop a predictive model that achieved 77% variance explanation (R²) with RMSE improvement of 50.6% over baseline."
+    },
+    {
+        "title": "Lunar Calendar Web App",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Developed a MERN-stack app using the NASA APOD API for users to learn more about different lunar phases"
+    },
+    {
+        "title": "Predicting Housing Prices in Boston",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Linear regression project using scikit-learn that predicts housing prices in the suburbs of Boston"
+    },
+    {
+        "title": "SDSC Internship Project",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Developed a full-stack web application, LegalLens, with a terms and contract analytics dashboard powered by OpenAI API"
+    },
+    {
+        "title": "Fugit autem itaque architecto?",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Dolorem beatae ad est nisi mollitia, optio repellendus voluptas cumque distinctio eligendi, voluptatum similique unde quisquam! Accusantium suscipit quasi, officia vero, excepturi explicabo similique nisi blanditiis non dignissimos, adipisci ipsum."
+    },
+    {
+        "title": "Optio inventore accusantium cumque!",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Nostrum eum exercitationem minima repudiandae, nobis quaerat, eos reprehenderit doloribus vero facilis asperiores atque nam modi enim alias voluptate recusandae id ea accusamus dolorem expedita aut aliquam ad? Quasi, maiores!"
+    },
+    {
+        "title": "Doloremque fugiat voluptatem voluptatum!",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Corrupti aspernatur quidem in explicabo illum accusamus distinctio sunt, quaerat, odit aperiam itaque iusto? Rem quidem quas ad amet atque dolorum optio cum totam nisi? Repellat ullam nisi nobis amet!"
+    },
+    {
+        "title": "Tempora, veniam facere. Facilis.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Est delectus quibusdam, labore sapiente molestias neque recusandae maxime culpa qui velit suscipit consequuntur vitae iusto placeat aliquam, quis soluta repellendus sunt hic. Ipsam eum quam optio dolor doloremque cumque!"
+    },
+    {
+        "title": "Soluta reiciendis quidem sit!",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Nostrum culpa molestiae dignissimos ea necessitatibus inventore, asperiores quasi incidunt a quis quidem nulla dolorem modi eveniet. A officiis enim cumque aperiam placeat. Non aliquam distinctio, quia dolorum optio facilis."
+    },
+    {
+        "title": "Exercitationem, soluta. Voluptatum, quos.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Nisi quas, esse enim odit eaque nemo sequi error laborum. Quo nobis, cum saepe corrupti esse cupiditate exercitationem vero a temporibus eos porro animi id nam pariatur eius veritatis quae!"
+    }
+]
