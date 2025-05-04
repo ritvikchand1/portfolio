@@ -147,4 +147,67 @@ label.color-scheme {
   font-family: inherit;
 }
 
+#projects-plot {
+  max-width: 20em;
+  margin-block: 2em;
 
+  overflow: visible;
+}
+
+.legend {
+  list-style: none;
+  padding: 0.9em;
+  margin: 0.9em 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 0.9em;
+  font-family: system-ui, sans-serif;
+  border: 1.8px solid #ccc;
+  border-radius: 7px;
+  flex: 1;
+}
+
+.legend li em {
+  font-style: normal;
+  color: lightgrey;
+  font-size: 1em;
+}
+
+.legend .swatch {
+  display: inline-block;
+  width: 0.9em;
+  height: 1em;
+  margin-right: 0.6em;
+  border-radius: 55%;
+  background-color: var(--color);
+  vertical-align: middle;
+}
+
+.legend .legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+}
+
+#projects-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+#projects-plot path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+}
+
+.selected:is(path) {
+  fill: var(--color);
+}
